@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Agency - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel='stylesheet prefetch' href='css/font-awesome.min.css'>
+		<link rel='stylesheet prefetch' href='css/css'>
+	
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/menu_tombol.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style1.css">
+
+<style type="text/css">
+@font-face {
+font-family: "Font Digital";
+src: url('hanan.TTF');
+}
+.digital {
+font-family: "Font Digital";
+}	
+.label {
+      color: #9C1179;     /* Warna: Purple */
+      display: block;
+      font-size:10px;
+      font-weight: bold;
+      
+    
+	  
+ }
+</style>
+
+<script>
+    function setHalfVolume() {
+        var myAudio = document.getElementById("audio");
+		myAudio.volume = 1.0;
+	    audio.play();
+    }
+	
+	function play(){
+       var audio = document.getElementById("audio1");
+       audio.play();
+    }
+   
+
+	</script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Basa Cirebon 4 SD</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html">Menu Utama</a>
+						<a class="page-scroll" href="halaman_materi.html">Kembali</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    
+
+    <!-- Services Section -->
+    
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">            
+            
+            <div class="row">
+				
+
+				<ul class="accordion-menu">
+				<li>
+					<div class="dropdownlink"><i class="fa fa-book" aria-hidden="true"></i> Kamus Alit
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+					</div>
+				<ul class="submenuItems">
+				<li><br><div id="result"></div>
+				<noscript>Sorry, your webView does not support JavaScript!</noscript>
+				<input id="entryInput" style="font-size=12px; background-color:#1E90FF"type="text" />
+				<input type="button" id="search_button" value="Mencari" /></br></li>
+				
+<script>				
+var words = {
+    "muga-muga": {
+        bebasan: "mugi-mugi",
+        artinya: "mudah-mudahan",
+
+    },
+    "dadi": {
+        bebasan: "dados",
+        artinya: "jadi",
+
+    },
+    "weruh": {
+        bebasan: "uning, sumerep",
+        artinya: "tahu",
+
+    },
+    "ana": {
+        bebasan: "wonten",
+        artinya: "ada",
+
+    },
+    "kabeh": {
+        bebasan: "sedaya",
+        artinya: "semua",
+
+    },
+    "dijaluk": {
+        bebasan: "disuwun",
+        artinya: "diminta",
+
+    },
+    "kepriben": {
+        bebasan: "kepripun",
+        artinya: "bagaimana",
+
+    },
+    "dianakaken": {
+        bebasan: "diwontenaken",
+        artinya: "diadakan",
+
+    },
+    "ngerti": {
+        bebasan: "ngertos",
+        artinya: "mengerti",
+
+    },
+    "uwar-uwar": {
+        bebasan: "wawaran",
+        artinya: "pengumuman",
+
+    },
+    "wis": {
+        bebasan: "sampun",
+        artinya: "sudah",
+
+    },
+    "ambiran": {
+        bebasan: "supados",
+        artinya: "supaya, agar",
+
+    },
+    "melu": {
+        bebasan: "milet",
+        artinya: "ikut",
+
+    },
+    "nulis": {
+        bebasan: "nyerat",
+        artinya: "menulis",
+
+    },
+    "ngulati": {
+        bebasan: "nyumponi",
+        artinya: "mencari",
+
+    },
+    "ngrungokaken": {
+        bebasan: "mirengaken",
+        artinya: "mendengarkan",
+
+    },
+    "gampang": {
+        bebasan: "gampil",
+        artinya: "mudah",
+
+    },
+    "batur": {
+        bebasan: "rencang",
+        artinya: "teman",
+
+    },
+    "mengkenen": {
+        bebasan: "mekaten",
+        artinya: "begini",
+
+    },
+    "bisa": {
+        bebasan: "saged",
+        artinya: "dapat",
+
+    },
+    "bagus": {
+        bebasan: "sae",
+        artinya: "bagus",
+
+    },
+    "sejen": {
+        bebasan: "sanes",
+        artinya: "lain, beda",
+
+    },
+    "parek": {
+        bebasan: "caket",
+        artinya: "dekat",
+
+    },
+    "salah": {
+        bebasan: "sawon",
+        artinya: "salah",
+
+    },
+    "ngomong": {
+        bebasan: "wiraos",
+        artinya: "berbicara, berkata",
+
+    },
+    "kudu": {
+        bebasan: "kedah",
+        artinya: "harus",
+
+    },
+    "nganggo": {
+        bebasan: "ngangge",
+        artinya: "menggunakan",
+
+    },
+    "siji": {
+        bebasan: "satunggal",
+        artinya: "satu",
+
+    },
+    "loro": {
+        bebasan: "kalih",
+        artinya: "dua",
+
+    },
+    "papat": {
+        bebasan: "sekawan",
+        artinya: "empat",
+
+    },
+    "lima": {
+        bebasan: "gangsal",
+        artinya: "lima",
+
+    },
+    "sepuluh": {
+        bebasan: "sedasa",
+        artinya: "sepuluh",
+
+    },
+    "isun": {
+        bebasan: "kula",
+        artinya: "saya",
+
+    },
+    "kita": {
+        bebasan: "kula",
+        artinya: "saya",
+
+    },
+    "sira": {
+        bebasan: "panjenengan",
+        artinya: "kamu",
+
+    },
+    "akeh": {
+        bebasan: "kathah",
+        artinya: "banyak",
+
+    },
+    "oli": {
+        bebasan: "angsal",
+        artinya: "dapat",
+
+    },
+    "numpak": {
+        bebasan: "niti",
+        artinya: "naik",
+
+    },
+    "melu": {
+        bebasan: "milet",
+        artinya: "ikut",
+
+    },
+    "pengen": {
+        bebasan: "ajeng",
+        artinya: "ingin",
+
+    },
+    "lunga": {
+        bebasan: "kesah",
+        artinya: "pergi",
+
+    },
+    "teka": {
+        bebasan: "dugi",
+        artinya: "datang",
+
+    },
+    "balik": {
+        bebasan: "wangsul",
+        artinya: "pulang",
+
+    },
+    "mlaku": {
+        bebasan: "mlampah",
+        artinya: "berjalan",
+
+    },
+    "mlayu": {
+        bebasan: "mlajeng",
+        artinya: "berlari",
+
+    },
+    "njaluk": {
+        bebasan: "nyuwun",
+        artinya: "meminta",
+
+    },
+    "tuku": {
+        bebasan: "tumbas",
+        artinya: "membeli",
+
+    },
+    "adol": {
+        bebasan: "sade",
+        artinya: "menjual",
+
+    },
+    "pira": {
+        bebasan: "pinten",
+        artinya: "berapa",
+
+    },
+    "oranana": {
+        bebasan: "mboten wonten",
+        artinya: "tidak ada",
+
+    },
+    "gawe": {
+        bebasan: "damel",
+        artinya: "membuat",
+
+    },
+    "ngawa": {
+        bebasan: "mbakta",
+        artinya: "membawa",
+
+    },
+    "klambi": {
+        bebasan: "rasukan",
+        artinya: "baju",
+
+    },
+    "esuk": {
+        bebasan: "enjing",
+        artinya: "pagi",
+
+    },
+    "sore": {
+        bebasan: "sonten",
+        artinya: "sore",
+
+    },
+    "bengi": {
+        bebasan: "dalu",
+        artinya: "malam",
+
+    },
+    "sukiki": {
+        bebasan: "benjing",
+        artinya: "besok",
+
+    },
+    "bengen": {
+        bebasan: "sengen",
+        artinya: "dahulu",
+
+    },
+    "semono": {
+        bebasan: "semonten",
+        artinya: "demikian",
+
+    },
+    "kiyong": {
+        bebasan: "kiyong",
+        artinya: "keong",
+
+    },
+    "katon": {
+        bebasan: "ketingal",
+        artinya: "tampak, kelihatan",
+
+    },
+    "mendi-mendi": {
+        bebasan: "pundi-pundi",
+        artinya: "kemana-mana",
+
+    },
+    "nggawa": {
+        bebasan: "mbakta",
+        artinya: "membawa",
+
+    },
+    "umah": {
+        bebasan: "griya",
+        artinya: "rumah",
+
+    },
+    "manda": {
+        bebasan: "manda",
+        artinya: "betapa",
+
+    },
+    "abot": {
+        bebasan: "abot",
+        artinya: "berat",
+
+    },
+    "bae": {
+        bebasan: "mawon",
+        artinya: "saja",
+
+    },
+    "takoh": {
+        bebasan: "tangled",
+        artinya: "bertanya",
+
+    },
+    "sapa": {
+        bebasan: "sinten",
+        artinya: "siapa",
+
+    },
+    "yen": {
+        bebasan: "upami",
+        artinya: "jika",
+
+    },
+    "bokat": {
+        bebasan: "bilih",
+        artinya: "barang kali",
+
+    },
+    "salah": {
+        bebasan: "sawon",
+        artinya: "salah",
+
+    },
+    "manggarante": {
+        bebasan: "manggarante",
+        artinya: "laba-laba",
+
+    },
+    "kuwen": {
+        bebasan: "punika",
+        artinya: "itu",
+
+    },
+    "gemuyu": {
+        bebasan: "gemujeng",
+        artinya: "tertawa",
+
+    },
+    "abang": {
+        bebasan: "abrit",
+        artinya: "merah",
+
+    },
+    "kinjeng": {
+        bebasan: "kinjeng",
+        artinya: "capung",
+
+    },
+    "deweke": {
+        bebasan: "piyambeke",
+        artinya: "dirinya",
+
+    },
+    "luru": {
+        bebasan: "ngilari",
+        artinya: "mencari",
+
+    },
+    "boca": {
+        bebasan: "lare",
+        artinya: "anak",
+
+    },
+    "lagi": {
+        bebasan: "siweg",
+        artinya: "sedang",
+
+    },
+    "nemoni": {
+        bebasan: "manggihi",
+        artinya: "menjumpai",
+
+    },
+    "perkara": {
+        bebasan: "perkawis",
+        artinya: "permasalahan",
+
+    },
+    "udan": {
+        bebasan: "jawo",
+        artinya: "hujan",
+
+    },
+    "sawah": {
+        bebasan: "sabin",
+        artinya: "sawah",
+
+    },
+    "ngabdi": {
+        bebasan: "ngabdi",
+        artinya: "mengabdi",
+
+    },
+    "lawas": {
+        bebasan: "lami",
+        artinya: "lama",
+
+    },
+    "njalani": {
+        bebasan: "nglampahi",
+        artinya: "menjalankan",
+
+    },
+    "mbabad": {
+        bebasan: "mbabad",
+        artinya: "memotong kayu di hutan",
+
+    },
+    "alas": {
+        bebasan: "wana",
+        artinya: "hutan",
+
+    },
+    "guyub": {
+        bebasan: "guyub",
+        artinya: "bersama-sama",
+
+    },
+    "menggawe": {
+        bebasan: "dedamel",
+        artinya: "bekerja",
+
+    },
+    "wiwitan gede": {
+        bebasan: "wiwitan ageng",
+        artinya: "pohon besar",
+
+    },
+    "tanduran": {
+        bebasan: "tanduran",
+        artinya: "tanaman",
+
+    },
+    "kali": {
+        bebasan: "lepen",
+        artinya: "sungai",
+
+    },
+    "gentong": {
+        bebasan: "gentong",
+        artinya: "gentong",
+
+    },
+    "adol": {
+        bebasan: "sade",
+        artinya: "menjual",
+
+    },
+    "payu": {
+        bebasan: "payu",
+        artinya: "laku",
+
+    },
+    "lebu": {
+        bebasan: "lebu, baledusun",
+        artinya: "balai desa",
+
+    },
+    "kemit": {
+        bebasan: "kemit",
+        artinya: "penjaga gedung",
+
+    },
+    "glelengan": {
+        bebasan: "glelengan",
+        artinya: "ketiduran",
+
+    },
+    "nawaraken": {
+        bebasan: "nawaraken",
+        artinya: "menawarkan",
+
+    },
+    "kebengien": {
+        bebasan: "kedaluan",
+        artinya: "malam",
+
+    },
+    "ngaso": {
+        bebasan: "ngaso",
+        artinya: "istirahat",
+
+    },
+    "liren": {
+        bebasan: "liren",
+        artinya: "Isitrahat sejenak",
+
+    },
+    "cangkem": {
+        bebasan: "cangkem",
+        artinya: "mulut",
+
+    },
+    "merem": {
+        bebasan: "merem",
+        artinya: "memejamkan mata",
+
+    },
+    "pikulan": {
+        bebasan: "pikulan",
+        artinya: "alat untuk memikul",
+
+    },
+    "diemet": {
+        bebasan: "dipendet",
+        artinya: "diambil",
+
+    },
+    "sukiki": {
+        bebasan: "benjing",
+        artinya: "beosk",
+
+    },
+    "njubleg": {
+        bebasan: "njubleg",
+        artinya: "terdiam",
+
+    },
+    "mider": {
+        bebasan: "mider",
+        artinya: "keliling",
+
+    },
+    "melas": {
+        bebasan: "melas",
+        artinya: "kasihan",
+
+    },
+};
+
+window.onload = onloadFunc;
+
+function onloadFunc() {
+    document.getElementById("search_button").onclick = myFunction;
+}
+
+function myFunction() {
+    var entryVal = document.getElementById("entryInput");
+    var entryId = entryVal.value.toLowerCase();
+    if (entryId in words) {
+        var message = "";
+        message += "Kata yang Di cari: " + entryVal.value + "<br />";
+        message += "Bebasan: " + words[entryId].bebasan + "<br />";
+        message += "Artinya: " + words[entryId].artinya + "<br />";
+
+        document.getElementById("result").innerHTML = message;
+        entryVal.value = "";
+    } else {
+        document.getElementById("result").innerHTML = "Kata Tidak Ada";
+    }
+    entryVal.focus();
+}
+</script>		
+				</ul>
+				</li>
+
+		
+
+				
+			</div>
+        </div>
+    </section>
+  <script src='js/jquery-2.2.4.js'></script>
+
+    <script src="js/index.js"></script>
+    <!-- About Section -->
+    
+
+    <!-- Team Section -->
+    
+   
+	
+    <!-- Contact Section -->
+    
+
+  
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Heading</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+
+    <!-- jQuery -->
+	<script src="js/media.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

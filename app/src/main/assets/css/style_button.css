@@ -1,0 +1,235 @@
+.btn-satunggal {  
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.btn-satunggal:hover,
+.btn-satunggal:focus,
+.btn-satunggal:active,
+.btn-satunggal.active,
+.open .dropdown-toggle.btn-satunggal {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-satunggal:active,
+.btn-satunggal.active,
+.open .dropdown-toggle.btn-satunggal {
+  background-image: none;
+}
+.btn-satunggal.disabled,
+.btn-satunggal[disabled],
+fieldset[disabled] .btn-satunggal,
+.btn-satunggal.disabled:hover,
+.btn-satunggal[disabled]:hover,
+fieldset[disabled] .btn-satunggal:hover,
+.btn-satunggal.disabled:focus,
+.btn-satunggal[disabled]:focus,
+fieldset[disabled] .btn-satunggal:focus,
+.btn-satunggal.disabled:active,
+.btn-satunggal[disabled]:active,
+fieldset[disabled] .btn-satunggal:active,
+.btn-satunggal.disabled.active,
+.btn-satunggal[disabled].active,
+fieldset[disabled] .btn-satunggal.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-satunggal .badge {
+  color: #fed136;
+  background-color: white;
+}
+
+.btn-kalih {  
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.btn-kalih:hover,
+.btn-kalih:focus,
+.btn-kalih:active,
+.btn-kalih.active,
+.open .dropdown-toggle.btn-kalih {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-kalih:active,
+.btn-kalih.active,
+.open .dropdown-toggle.btn-kalih {
+  background-image: none;
+}
+.btn-kalih.disabled,
+.btn-kalih[disabled],
+fieldset[disabled] .btn-kalih,
+.btn-kalih.disabled:hover,
+.btn-kalih[disabled]:hover,
+fieldset[disabled] .btn-kalih:hover,
+.btn-kalih.disabled:focus,
+.btn-kalih[disabled]:focus,
+fieldset[disabled] .btn-kalih:focus,
+.btn-kalih.disabled:active,
+.btn-kalih[disabled]:active,
+fieldset[disabled] .btn-kalih:active,
+.btn-kalih.disabled.active,
+.btn-kalih[disabled].active,
+fieldset[disabled] .btn-kalih.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-kalih .badge {
+  color: #fed136;
+  background-color: white;
+}
+
+.btn-tiga {  
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.btn-tiga:hover,
+.btn-tiga:focus,
+.btn-tiga:active,
+.btn-tiga.active,
+.open .dropdown-toggle.btn-tiga {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-tiga:active,
+.btn-tiga.active,
+.open .dropdown-toggle.btn-tiga {
+  background-image: none;
+}
+.btn-tiga.disabled,
+.btn-tiga[disabled],
+fieldset[disabled] .btn-tiga,
+.btn-tiga.disabled:hover,
+.btn-tiga[disabled]:hover,
+fieldset[disabled] .btn-tiga:hover,
+.btn-tiga.disabled:focus,
+.btn-tiga[disabled]:focus,
+fieldset[disabled] .btn-tiga:focus,
+.btn-tiga.disabled:active,
+.btn-tiga[disabled]:active,
+fieldset[disabled] .btn-tiga:active,
+.btn-tiga.disabled.active,
+.btn-tiga[disabled].active,
+fieldset[disabled] .btn-tiga.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-tiga .badge {
+  color: #fed136;
+  background-color: white;
+}
+
+.btn-sekawan {  
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.btn-sekawan:hover,
+.btn-sekawan:focus,
+.btn-sekawan:active,
+.btn-sekawan.active,
+.open .dropdown-toggle.btn-sekawan {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-sekawan:active,
+.btn-sekawan.active,
+.open .dropdown-toggle.btn-sekawan {
+  background-image: none;
+}
+.btn-sekawan.disabled,
+.btn-sekawan[disabled],
+fieldset[disabled] .btn-sekawan,
+.btn-sekawan.disabled:hover,
+.btn-sekawan[disabled]:hover,
+fieldset[disabled] .btn-sekawan:hover,
+.btn-sekawan.disabled:focus,
+.btn-sekawan[disabled]:focus,
+fieldset[disabled] .btn-sekawan:focus,
+.btn-sekawan.disabled:active,
+.btn-sekawan[disabled]:active,
+fieldset[disabled] .btn-sekawan:active,
+.btn-sekawan.disabled.active,
+.btn-sekawan[disabled].active,
+fieldset[disabled] .btn-sekawan.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-sekawan .badge {
+  color: #fed136;
+  background-color: white;
+}
+
+.btn-gangsal {  
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.btn-gangsal:hover,
+.btn-gangsal:focus,
+.btn-gangsal:active,
+.btn-gangsal.active,
+.open .dropdown-toggle.btn-gangsal {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-gangsal:active,
+.btn-gangsal.active,
+.open .dropdown-toggle.btn-gangsal {
+  background-image: none;
+}
+.btn-gangsal.disabled,
+.btn-gangsal[disabled],
+fieldset[disabled] .btn-gangsal,
+.btn-gangsal.disabled:hover,
+.btn-gangsal[disabled]:hover,
+fieldset[disabled] .btn-gangsal:hover,
+.btn-gangsal.disabled:focus,
+.btn-gangsal[disabled]:focus,
+fieldset[disabled] .btn-gangsal:focus,
+.btn-gangsal.disabled:active,
+.btn-gangsal[disabled]:active,
+fieldset[disabled] .btn-gangsal:active,
+.btn-gangsal.disabled.active,
+.btn-gangsal[disabled].active,
+fieldset[disabled] .btn-gangsal.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-gangsal .badge {
+  color: #fed136;
+  background-color: white;
+}
+
